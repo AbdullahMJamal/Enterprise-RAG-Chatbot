@@ -1,0 +1,38 @@
+# --- Python & Virtual Environments ---
+venv/
+.venv/
+.env
+db/
+docs/
+env/
+bin/
+lib/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+build/
+include/
+share/
+*.pyc
+__pycache__/
+
+# --- API Keys & Secrets (CRITICAL) ---
+.env
+.env.local
+.env.secret
+secrets.py
+credentials.json
+
+# --- Databases & Large Data ---
+# ChromaDB persistence folders
+dbv1/
+dbv2/
+chroma_db/
+*.sqlite3
+
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db

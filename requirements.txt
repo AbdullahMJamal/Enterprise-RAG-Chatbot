@@ -1,0 +1,21 @@
+# ── Core Framework ────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── LangChain (non-deprecated, split-package imports) ─────────────────────────
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0        # FAISS, PyPDFLoader, etc.
+langchain-openai>=0.1.0           # OpenAIEmbeddings, ChatOpenAI
+langchain-text-splitters>=0.2.0   # RecursiveCharacterTextSplitter
+
+# ── Vector Store ──────────────────────────────────────────────────────────────
+faiss-cpu>=1.8.0                  # Use faiss-gpu if you have CUDA
+
+# ── PDF Parsing ───────────────────────────────────────────────────────────────
+pypdf>=4.2.0                      # Backend used by PyPDFLoader
+
+# ── OpenAI SDK ────────────────────────────────────────────────────────────────
+openai>=1.30.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0              # Load OPENAI_API_KEY from .env file
